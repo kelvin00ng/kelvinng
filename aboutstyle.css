@@ -1,0 +1,42 @@
+@font-face {
+    font-family: codingfont;
+    src: url(nk57-monospace/nk57-monospace-cd-bd.ttf);
+}
+
+body{
+    margin:0;
+    background: black;
+    font-family: codingfont;
+}
+
+
+.header{
+    position: relative;
+    width: 100%;
+    background: yellow;
+
+}
+
+nav{
+    display: flex;
+    width: auto;
+    margin: auto;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav ul li{
+    display: inline-block;
+    list-style: none;
+    margin: 10px 20px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+nav ul li a:hover{
+    color: red;
+}
