@@ -1,5 +1,74 @@
 body{
     margin: 0;
-    background: pink;
-    text-align: center;
+    font-family: sans-serif;
+    background: black;
+}
+
+.header{
+    position: relative;
+    width: 100%;
+    background: yellow;
+
+}
+
+nav{
+    display: flex;
+    width: auto;
+    margin: auto;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav ul li{
+    display: inline-block;
+    list-style: none;
+    margin: 10px 20px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+nav ul li a:hover{
+    color: red;
+}
+
+.starter{
+    margin-left: 8%;
+    margin-top: 10%;
+    text-align: left;
+}
+
+.starter h1{
+    font-size: 50px;
+    margin-bottom: 10px;
+}
+
+.starter a{
+    background: yellow;
+    padding: 10px 18px;
+    font-weight: bold;
+    color: black;
+    display: inline-block;
+    margin: 30px 0;
+    border-radius: 5px;
+}
+
+.starter p{
+    font-size: large;
+}
+
+.image{
+    background: seagreen;
+    display: inline-block
+    width: 100px;
+    height: 0;
+}
+
+.image img{
+    position: relative;
+    left: 700px;
+    bottom: 180px;
 }
